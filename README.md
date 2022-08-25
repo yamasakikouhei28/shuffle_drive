@@ -45,6 +45,3 @@
 
 # 画面遷移図
 　https://www.figma.com/file/JFEU6JIZcANUL36BEfAz25/shuffle-drive-%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?node-id=76%3A3
-
-# ER図
-https://app.diagrams.net/#Hyamasakikouhei28%2Fshuffle_drive%2Fmake_README.md%2F%E3%82%B7%E3%83%A3%E3%83%83%E3%83%95%E3%83%AB%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E3%80%80ER%E5%9B%B3.drawio
