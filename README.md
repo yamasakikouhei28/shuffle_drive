@@ -42,7 +42,7 @@
 　README〜ER図作成：8/31 〆切<br>
 　メイン機能実装：9/1 - 10/31<br>
 　β版をRUNTEQ内リリース（MVP）：11/1〆切<br>
-　本番リリース：11/7
+　本番リリース：11/16
 
 ## 画面遷移図
 　https://www.figma.com/file/JFEU6JIZcANUL36BEfAz25/shuffle-drive-%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?node-id=76%3A3
