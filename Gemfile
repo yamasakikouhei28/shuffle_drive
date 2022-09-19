@@ -32,6 +32,8 @@ gem 'net-pop'
 gem "bootstrap-sass", "~>3.4.1"
 gem "jquery-rails"
 gem "jquery-ui-rails"
+gem 'sorcery'
+gem 'pry-byebug'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
