@@ -5,6 +5,9 @@ class SorceryCore < ActiveRecord::Migration[6.1]
       t.string :crypted_password
       t.string :salt
       t.string :name,             null: false
+      t.binary :icon
+      t.integer :fuel
+
 
       t.timestamps                null: false
     end
