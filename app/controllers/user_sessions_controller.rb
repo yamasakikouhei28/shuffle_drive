@@ -1,17 +1,21 @@
 class UserSessionsController < ApplicationController
-  def new; end
+  skip_before_action :require_login, only: %i[new create]
+
+  def index
+    @user = User.new
+  end
 
   def create
-    @user = login(params[:email], params[:password])
-    if @user
-      redirect_back_or_to root_path
+    if @user = login(params[:email], params[:password])
+      redirect_back_or_to(root_url, notice: 'ログインしました')
     else
+      flash[:alert] = 'ログイン失敗'
       render :new
     end
   end
 
-  def destroy
+  def destory
     logout
-    redirect_to root_path
+    redirect_to(root_url, notice: 'ログアウトしました')
   end
 end
