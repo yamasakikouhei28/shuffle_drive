@@ -1,5 +1,5 @@
 class Admin::BaseController < ApplicationController
-  bofore_action :check_admin
+  before_action :check_admin
 #↓layout宣言
   layout 'admin/layouts/application'
 
