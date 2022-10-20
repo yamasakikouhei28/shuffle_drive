@@ -34,6 +34,9 @@ gem "jquery-rails"
 gem "jquery-ui-rails"
 gem 'sorcery'
 gem 'pry-byebug'
+gem 'carrierwave'
+gem 'rails-i18n'
+gem 'pry-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false

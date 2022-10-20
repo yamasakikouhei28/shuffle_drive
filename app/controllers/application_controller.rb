@@ -1,7 +1,9 @@
 class ApplicationController < ActionController::Base
-  <% if logged_in? %>
-    <%= render 'shared/header' %>
-  <% else %>
-    <%= render 'shared/before_login_header' %>
-  <% end %>
+  before_action :require_login
+
+  private
+
+  def not_authenticated
+    redirect_to login_path, danger: "ログインしてください"
+  end
 end
